@@ -38,7 +38,7 @@ def process_json_file(filename):
              error_found = check_record_length(record, i)
 
              if(error_found == True):
-                 errors = errors + 1
+                 errors += 1
 
              i = i+1
 
