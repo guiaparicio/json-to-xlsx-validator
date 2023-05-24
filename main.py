@@ -15,7 +15,6 @@ def check_record_length(record, i):
             error_found = True
             print(f"\nRecord {i} with more than {limit_size} characters found in key '{key}'\n")
             print("-----------------------")
-            # exit()
         else:
             print(f"Register: {i} validate!")
 
